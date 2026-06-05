@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-09-01 16:11:00-0400
+date: 2025-04-11 16:11:00-0400
 inline: true
 ---
 
-Graduated with MSc. in EEIT from ETH Zurich.
+Advanced to Ph.D. candidacy.
