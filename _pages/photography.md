@@ -30,6 +30,12 @@ nav_order: 3
     <img class="img-fluid rounded" src="{{ '/assets/img/photography/DSC03090.JPG' | relative_url }}" alt="photo">
   </div>
   <div class="col-sm-12 mt-3">
+    <img class="img-fluid rounded" src="{{ '/assets/img/photography/DSC02116.JPG' | relative_url }}" alt="photo">
+  </div>
+  <div class="col-sm-12 mt-3">
+    <img class="img-fluid rounded" src="{{ '/assets/img/photography/DSC02170.JPG' | relative_url }}" alt="photo">
+  </div>
+  <div class="col-sm-12 mt-3">
     <img class="img-fluid rounded" src="{{ '/assets/img/photography/DSC03145.JPG' | relative_url }}" alt="photo">
   </div>
 </div>
