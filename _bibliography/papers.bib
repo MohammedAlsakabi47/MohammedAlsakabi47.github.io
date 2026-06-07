@@ -3,11 +3,11 @@
 
 @string{aps = {American Physical Society,}}
 
-@article{alsakabi2025fmsiren,
+@article{alsakabi2025fm,
   author    = {Alsakabi, Mohammed and Mobeirek, Wael and Dolan, John M. and Tonguz, Ozan K.},
   title     = {FM-SIREN \& FM-FINER: Implicit Neural Representation Using Nyquist-based Orthogonality},
+  journal   = {arXiv preprint arXiv:2509.23438},
   year      = {2025},
-  journal   = {arXiv preprint},
   arxiv     = {2509.23438},
   url       = {https://arxiv.org/abs/2509.23438},
   abstract  = {Existing periodic activation-based implicit neural representation (INR) networks, such as SIREN and FINER, suffer from hidden feature redundancy, where neurons within a layer capture overlapping frequency components due to the use of a fixed frequency multiplier. This redundancy limits the expressive capacity of multilayer perceptrons (MLPs). Drawing inspiration from classical signal processing methods such as the Discrete Sine Transform (DST), in this paper, we propose FM-SIREN and FM-FINER, which assign Nyquist-informed, neuron-specific frequency multipliers to periodic activations. Contrary to existing approaches, our design introduces frequency diversity without requiring hyperparameter tuning or additional network depth. This simple yet principled approach reduces the redundancy of features by nearly 50% and consistently improves signal reconstruction across diverse INR tasks, such as fitting 1D audio, 2D image and 3D shape, and video, outperforming their baseline counterparts while maintaining efficiency.},
@@ -16,11 +16,11 @@
   abbr      = {arXiv},
 }
 
-@inproceedings{alsakabi2025itsc,
+@inproceedings{alsakabi2025toward,
   author    = {Alsakabi, Mohammed and Erickson, Aidan and Dolan, John M. and Tonguz, Ozan K.},
   title     = {Toward a Low-Cost Perception System in Autonomous Vehicles: A Spectrum Learning Approach},
+  booktitle = {2025 IEEE Intelligent Transportation Systems Conference (ITSC)},
   year      = {2025},
-  booktitle = {IEEE International Conference on Intelligent Transportation Systems (ITSC)},
   month     = {November},
   abstract  = {We present a cost-effective new approach for generating denser depth maps for Autonomous Driving (AD) and Autonomous Vehicles (AVs) by integrating the images obtained from deep neural network (DNN) 4D radar detectors with conventional camera RGB images. Our approach introduces a novel pixel positional encoding algorithm inspired by Bartlett's spatial spectrum estimation technique. This algorithm transforms both radar depth maps and RGB images into a unified pixel image subspace called the Spatial Spectrum, facilitating effective learning based on their similarities and differences. Our method effectively leverages high-resolution camera images to train radar depth map generative models, addressing the limitations of conventional radar detectors in complex vehicular environments, thus sharpening the radar output. We develop spectrum estimation algorithms tailored for radar depth maps and RGB images, a comprehensive training framework for data-driven generative models, and a camera-radar deployment scheme for AV operation. Our results demonstrate that our approach also outperforms the state-of-the-art (SOTA) by 27.95% in terms of Unidirectional Chamfer Distance (UCD).},
   arxiv     = {2502.01940},
@@ -28,4 +28,37 @@
   selected  = {true},
   bibtex_show = {true},
   abbr      = {ITSC25},
+}
+
+@article{muckelroy2025impact,
+  author    = {Muckelroy III, William and Alsakabi, Mohammed and Dolan, John and Tonguz, Ozan},
+  title     = {The Impact of 2D Segmentation Backbones on Point Cloud Predictions Using 4D Radar},
+  journal   = {arXiv preprint arXiv:2509.19644},
+  year      = {2025},
+  arxiv     = {2509.19644},
+  url       = {https://arxiv.org/abs/2509.19644},
+  bibtex_show = {true},
+  abbr      = {arXiv},
+}
+
+@article{hu2025reproducing,
+  author    = {Hu, Kejia and Alsakabi, Mohammed and Dolan, John M. and Tonguz, Ozan K.},
+  title     = {Reproducing and Extending RaDelft 4D Radar with Camera-Assisted Labels},
+  journal   = {arXiv preprint arXiv:2512.02394},
+  year      = {2025},
+  arxiv     = {2512.02394},
+  url       = {https://arxiv.org/abs/2512.02394},
+  bibtex_show = {true},
+  abbr      = {arXiv},
+}
+
+@inproceedings{rabiah2020sdr,
+  author    = {Rabiah, Ahmad Bin and Alsakabi, Mohammed and Aldayel, Omar and Alshebeili, Saleh},
+  title     = {SDR-Based Hardware Implementation and Performance Measurement of Transmit Beampattern Design Algorithms},
+  booktitle = {2020 IEEE Radar Conference (RadarConf20)},
+  pages     = {1--6},
+  year      = {2020},
+  organization = {IEEE},
+  bibtex_show = {true},
+  abbr      = {RadarConf20},
 }
