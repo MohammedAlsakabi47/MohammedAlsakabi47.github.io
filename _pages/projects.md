@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 description: Some of the most interesting projects I have worked on.
-nav: true
+nav: false
 nav_order: 2
 display_categories: [Research, Misc.]
 horizontal: false
